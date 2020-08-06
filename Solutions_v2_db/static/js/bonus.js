@@ -87,6 +87,6 @@ function buildGauge(wfreq) {
     }
   };
 
-  var GAUGE = document.getElementById("gauge");
+  var GAUGE = document.getElementById("Speed_Meter");
   Plotly.newPlot(GAUGE, data, layout);
 }
